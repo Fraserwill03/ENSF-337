@@ -83,6 +83,7 @@ void Matrix::sum_of_cols()const
 void Matrix::copy(const Matrix& source)
 {
     // THIS FUNCITON IS DEFECTIVE AND DOSEN'T PROPERLY MAKE THE COPY OF SROUCE
+    // FUNCTION TO BE FIXED BY STUDENT
     if(source.matrixM == NULL){
         matrixM = NULL;
         sum_rowsM = NULL;
